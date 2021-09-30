@@ -6,6 +6,8 @@
   "scripts": {
     "monitor": "multimeter",
     "upload": "rollup -cw --environment DEST:main",
+    "push-sim": "rollup -c rollup.config.js --environment DEST:sim",
+    "push-sim2": "rollup -c rollup.config.js --environment DEST:sim2",
     "local": "rollup -cw --environment DEST:local",
     "build": "rollup -c",
     "test-unit": "jest src/",
